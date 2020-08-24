@@ -1,0 +1,32 @@
+/* body {
+    background-color: lightseagreen;
+} */
+
+#zoning4 {
+    width: 1200px;
+    background-color: lightgreen;
+    margin: auto;
+    text-align: left;
+    color: white;
+}
+
+#zoning4 header {
+    min-height: 100px;
+    background-color: red;
+}
+
+#zoning4 nav {
+    background-color: blue;
+    min-height: 50px;
+
+}
+#zoning4 section {
+    height: 500px;
+    margin: 20px;
+    background: pink;
+}
+
+#zoning footer {
+    background-color:black ;
+    height: 50px;
+}
