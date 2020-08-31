@@ -1,0 +1,83 @@
+
+body {
+    background: bisque
+}
+.rose {
+    background-color: pink;
+
+}
+
+.corail {
+    background-color: lightcoral;
+    
+}
+.c1, .c2 {
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid white;
+    float: left;
+
+    border-radius: 10% 5% 40% 0%;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+
+
+/* 
+.clear {
+    clear: both;
+}
+.block1,.block2, .block3, .block4  {
+    border: 5px solid whitesmoke;
+    height: 8em;
+    width: 8em;
+    margin: auto;
+    background: pink;
+    padding: 1em;
+    float: left;
+    border-bottom-right-radius: 25px;
+    margin: auto;
+}
+
+
+.block5, .block6, .block7, .block8 {
+    border: 5px solid whitesmoke;
+    height: 8em;
+    width: 8em;
+    margin: auto;
+    background: pink;
+    padding: 1em;
+    float: left;
+    border-bottom-right-radius: 25px;
+    margin: auto;
+}
+
+
+.block9, .block10, .block11, .block12 {
+    border: 5px solid whitesmoke;
+    height: 8em;
+    width: 8em;
+    margin: auto;
+    background: pink;
+    padding: 1em;
+    float: left;
+    border-bottom-right-radius: 25px;
+    margin: auto;
+}
+
+.block13, .block14, .block15, .block16{
+    border: 5px solid whitesmoke;
+    height: 8em;
+    width: 8em;
+    margin: auto;
+    background: pink;
+    padding: 1em;
+    float: left;
+    border-bottom-right-radius: 25px;
+    margin: auto;
+} */
+

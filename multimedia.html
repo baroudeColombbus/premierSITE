@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="mon PremierSITE html5/css3 colombbus de suresnes">
+    <meta name="keywords" content="html, css, baroude, ntsiba, colombbus" >
+    <meta name="author" content="Baroude NTSIBA">
+    <title>PremierSITE- texte</title>
+    <!-- liens vers google fonts qui seront notre Typo -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lemonada&family=Oswald&display=swap" rel="stylesheet"> 
+
+    <!-- font awesome - icône embarqué -->
+    <script src="https://kit.fontawesome.com/b0958c08fe.js" crossorigin="anonymous"></script>
+
+    <!-- Lien vers lafeuille de style du premierSITE-->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <a href="#logo">
+                <button type="button"><i class="fas fa-arrow-alt-circle-up"></i></button>
+            </a>
+            <img src="img/logo.png" alt="logo premier site">
+        </div><!-- fin id logo -->
+
+        <div id="slogan">
+            <a href="index.html" title="mon premier site en css">
+                <h1>mon premier site css3</h1>
+        </a>
+    </div><!-- fin de slogan -->
+
+    <div id="social">
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://fr-fr.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    </div>
+
+    <div class="clear"></div>
+
+    </header>
+    <!-- navigarion -->
+    <nav class="encreNave">
+        <a href="index.html" title="Accueil">Accueil</a>
+        <a href="texte.html" title="texte" >Text</a>
+        <a href="selecteur.html" title="selecteur">Selecteur</a>
+        <a href="image.html" title="image">image</a>
+        <a href="position.html" title="position">Position</a>
+        <a href="zoning.html" title="zoning">zoning</a>
+        <a href="tableau.html" title="tableau">Tableau</a>
+        <a href="liste.html" title="liste">Liste</a>
+        <a href="lien_menu.html" title="lien">Lien</a>
+        <a href="formulaire.html" title="formulaire">Formulaire</a>
+        <a href="multimedia" title="multimedia" class="active">Multimédia</a>
+        <a href="animation.html" title="animation">Animation</a>
+        <a href="recap.html" title="recapitulatif">Récapitulatif</a>
+    </nav>
+
+    <main>
+        <h2>Multimédia <i class="fas fa-film"></i></h2>
+        
+        <section class="videoFond">
+            <h3>Une video en fond</h3>
+            <div class="videoTexte">
+                 <!-- le navigateur va par défault, le plus souvent, blocquer les contenus audio et videos -->
+                    <!-- voilà pourquoi il est préferable de mettre les outils de lecture de stop etc. La barre de contrôle de la vidéo -->
+                <video autoplay loop>
+                    <!-- muted dans les attributs de l'élément vidéo est un moyen de coutourner le non lancement automatique de la viéo, mais elle est muette -->
+                   
+                    <source src="video/videoBackground.mp4" type="video/mp4">
+                </video>
+                <p>Une vidéo en noir et blanc</p>
+            </div>
+        </section>
+
+        <section class="audio">
+            <h3>Audio, les sons</h3>
+            <h4>Format .mp3</h4>
+            <br>
+            <audio src="audio/sf_ambi_oiseaux_campagne_01.mp3" controls></audio>
+            <h4>Format Ogg</h4>
+            <br>
+            <audio src="audio/son.mp3" controls>
+                <p>Votre navigateur n'accepte pas le fichier Ogg</p>
+            </audio>
+            <br>
+            <audio src="audio/son.ogg" controls autoplay></audio>
+            <hr>
+            <h3>Audio Controls</h3>
+            <audio controls>
+                <source src="audio/son.mp3" type="audio/mpeg">
+                <source src="audio/son.ogg" type="audio/ogg">
+            </audio>
+
+        </section>
+
+        <section>
+            <h3>Une vidéo intégrée depuis youtube</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Gcqu2V5lBZo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias esse, id omnis qui nam eos beatae in architecto ipsam libero. Esse cumque ratione incidunt. Eos porro impedit eius et repellat!</p>
+    </footer>
+
+</body>
+</html>

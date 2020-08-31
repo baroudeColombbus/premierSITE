@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QCM</title>
+    <style>
+        body { 
+            background-color: pink;
+        }
+        main {
+            width: 1000px;
+            min-width: 500px;
+            margin: auto;
+            background-color: #fff;
+        }
+
+        #entete {
+            height: 100px;
+            line-height: 100px;
+            background: ghostwhite;
+            text-align: center;
+        }
+
+        .bg-orange {
+            color: white;
+        }
+
+        .cercle{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: orangered;
+        }
+
+        q::before{
+            content: "«";
+            color: orange;
+        }
+
+        q::after{
+            content: "»";
+            color: red;
+        }
+
+
+    
+
+    </style>
+</head>
+<body>
+    <main>
+        <di id="entete">
+            <h1>QCM WF3</h1>
+        </di>
+        <h2>
+            ceci est un titre 2 avec un mot sur fond <span class="bg-orange"></span>
+
+        </h2>
+        <div class="cercle"></div>
+
+        <hr>
+
+        <q>Quelques guillmets</q>, dit-il, <q>sont mieux que pas du tout</q>
+
+    </main>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+body {
+    background: beige
+}
+.rose {
+    background-color: pink;
+
+}
+
+.corail {
+    background-color: lightcoral;
+    
+}
+.c1, .c2 {
+    height: 10em;
+    width: 10em;
+    border: 0.2em solid white;
+    float: left;
+
+    border-radius: 10% 5% 40% 0%;
+    text-align: center;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+}
+
+

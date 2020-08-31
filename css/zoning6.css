@@ -1,0 +1,116 @@
+body {
+    width: 1000PX;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+#zoning6 {
+    width: 100%;
+    box-sizing: border-box;
+} 
+
+.hautgauche {
+    width: 25%;
+    background: tomato;
+    height: 100px;
+    float: left;
+    margin: auto;  
+    
+}
+#zoning6 .hautcentral{
+    width: 50%;
+    background: #006666;
+    height: 100px;
+    float: left;
+    margin: auto;
+}
+#zoning6 .hautdroite {
+    width: 25%;
+    background: turquoise;
+    height: 100px;
+    float: left;
+    margin: auto;
+}
+
+#zoning6 nav {
+    height: 50px;
+    width: 100%;
+    background: lightblue;
+    margin: 0 auto;
+    float: left;
+}
+
+#zoning6 aside {
+    height: 800px;
+    width: 25%;
+    background: plum;
+    float: left;
+}
+
+#zoning6 section .zoneA {
+    height: 266px;
+    width: 37.5%;
+    background: bisque;
+    float: left;
+}
+
+#zoning6 section .zoneB {
+    height: 266px;
+    width: 37.5%;
+    background: #ccc;
+    float: left;
+}
+
+#zoning6 section .diaporama {
+    height: 267px;
+    width: 75%;
+    background: green;
+    float: left;
+    margin-top: 0 auto;
+
+}
+
+#zoning6 section .zoneC {
+    height: 267.5px;
+    background: greenyellow;
+    width: 18.7%;
+    float: left;
+}
+
+#zoning6 section .zoneD {
+    height: 267px;
+    background: purple;
+    width: 18.7%;
+    float: left;
+}
+
+#zoning6 section .zoneE{
+    height: 267px;
+    background:orange;
+    width: 18.8%;
+    float: left;
+}
+
+#zoning6 section .zoneF {
+    height: 267px;
+    background:orangered;
+    width: 18.8%;
+    float: left;
+}
+
+#zoning6 footer {
+    height: 50px;
+    width: 100%;
+    background: #006666;
+    margin: 0 auto;
+    float: left;
+
+
+}
+
+
